@@ -58,10 +58,10 @@
 </style>
 <script>
 
-    import WorkHistory from "./components/WorkHistory";
-    import Introduction from "./components/Introduction";
-    import Interests from "./components/Interests";
-    import Education from "./components/Education";
+    import WorkHistory from "./components/workhistory/WorkHistory";
+    import Introduction from "./components/introduction/Introduction";
+    import Interests from "./components/footer/Interests";
+    import Education from "./components/footer/Education";
 
     export default {
         name: 'App',
@@ -137,7 +137,7 @@
                                 "Organize triage meetings to prioritize incoming requests, closely work with stakeholders: negotiate priorities, report progress, drive user acceptance tests.",
                                 "Advocate for clean code, establish coding standards and review process to improve code quality. Introduce SonarQube for automated code review.",
                             ],
-                            skills: "Spring Boot, JPA/Hibernate, Jenkins, Java8, Java10, Angular6+typescript, Mockito, SonarQube, Amazon RDS(Aurora-mysql), SQS, S3, EC2/VPC, Route53, Terraform, Gradle, Flyway, Sleuth",
+                            skills: "Spring Boot, JPA/Hibernate, Jenkins, Java8, Java10, Angular6+typescript, Mockito, SonarQube, Amazon RDS(Aurora-mysql), SQS, S3, EC2/VPC, Route53, Terraform, Gradle, Flyway, Sleuth, Hystrix, Spring Data, Spring Retry",
                         },
 
                     ],

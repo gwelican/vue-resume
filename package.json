@@ -12,7 +12,8 @@
     "ssr:fix-vuex": "vue-cli-service ssr:fix-vuex",
     "ssr:serve": "vue-cli-service ssr:serve",
     "ssr:start": "vue-cli-service ssr:start",
-    "ssr:static": "vue-cli-service ssr:static"
+    "ssr:static": "vue-cli-service ssr:static",
+    "export": "concurrently \"npm run serve\" \"npm run pdf\" --success first --kill-others --raw"
   },
   "dependencies": {
     "@uvue/core": "^0.1.0",
@@ -28,6 +29,7 @@
     "vuetify": "^2.2.11"
   },
   "devDependencies": {
+    "concurrently": "^5.2.0",
     "puppeteer": "^3.0.4",
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@uvue/vue-cli-plugin-ssr": "~0.1.6",

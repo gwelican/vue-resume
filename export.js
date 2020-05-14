@@ -67,7 +67,7 @@ const convert = async () => {
             fs.mkdirSync(fullDirectoryPath);
         }
         await page.pdf({
-            path: fullDirectoryPath + 'resume.pdf',
+            path: fullDirectoryPath + '/resume.pdf',
             format: 'A4'
         });
         await browser.close();
