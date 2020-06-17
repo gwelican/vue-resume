@@ -98,7 +98,7 @@
                         //"Perl",
                         "Shell script",
                         // "Scala(beginner)",
-                        //"Go"
+                        "Go"
                     ],
                     "Web Development": [
                         "HTML5", "CSS3", "Javascript", "Typescript",
@@ -127,7 +127,7 @@
                                 "Advocate 12 factor development so that deployments microservices are deployed in a consistent, clean manner.",
                                 "Maintain high quality spring boot based cloud native template to bootstrap new projects easily, embracing convention over configuration to make the template as simple as possible."
                             ],
-                            skills: "Spring Boot, Jenkins/AWS Codebuild, Java11, SonarQube, Amazon Lambda, AWS Cloudformation, Haystack, Prometheus, InfluxDB, Grafana",
+                            skills: "Spring Boot, Jenkins/AWS Codebuild, Java11, Golang, Python, SonarQube, Amazon Lambda, AWS Cloudformation, Haystack, Prometheus, InfluxDB, Grafana",
                         },
                         {
                             name: "Cost Adjustment Tool",
