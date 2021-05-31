@@ -32,7 +32,7 @@
     "concurrently": "^5.2.0",
     "puppeteer": "^3.0.4",
     "@fortawesome/fontawesome-free": "^5.15.3",
-    "@uvue/vue-cli-plugin-ssr": "~0.1.6",
+    "@uvue/vue-cli-plugin-ssr": "~0.1.7",
     "@vue/cli-plugin-babel": "~4.5.13",
     "@vue/cli-plugin-eslint": "~4.3.0",
     "@vue/cli-service": "~4.3.0",
