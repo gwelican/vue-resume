@@ -29,7 +29,7 @@
     "vuetify": "^2.2.11"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
+    "concurrently": "^9.0.1",
     "puppeteer": "^3.0.4",
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@uvue/vue-cli-plugin-ssr": "~0.1.6",
